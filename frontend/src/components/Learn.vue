@@ -9,7 +9,7 @@ export default{
   },
   methods: {
     displayData(){
-     axios.get("http://localhost:3330/")
+     axios.get("https://akua-learnz.onrender.com/")
      .then((res) => {this.data = res.data})
      .catch((err) => console.log(err.message))
    }
